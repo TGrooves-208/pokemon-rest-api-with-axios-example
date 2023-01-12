@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+## Description
+React project created from `npx create-react-app appname`. To do the same thing here all you need to do is the following:
+<b>Easy Way</b>
+- Make a directory where you keep all of your React projects
+- `mkdir react-projects` and then `cd react-projects`
+- Inside of that directory you are now in go ahead and clone this repository
+- `git clone this repository`
+- cd into the newly cloned repo and then `npm start`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+___
+<b>Practing more React</b>
+- Make a directory where you keep all of your React projects
+- `mkdir react-projects` and then `cd react-projects`
+- Inside of that directory enter in the terminal `npx create-react-app pokemon-project-or-whatever-you-want-to-call-it`
+- Let the installation complete and it will give you some output as direction
+- `cd pokemon-project-or-whatever-you-want-to-called-it` and then `npm start`
+- Install dependencies look inside of the `package.json` file this will tell you what is needed
+- [npm axios](https://www.npmjs.com/package/axios)
+- [material-ui-docs](https://mui.com/material-ui/getting-started/installation/)
+- `axios, material-ui (icons, styled-engine)`
 
-## Available Scripts
+___
+## Image for reference (Package JSON file)
+`package.json`
+![pokemon-package-json-dependencies](https://user-images.githubusercontent.com/5911897/211984713-0176b91e-83b0-48a3-8afc-2e71857e6059.PNG)
 
-In the project directory, you can run:
+___
+## Image for reference (Project up and running)
+![pokemon-project-running-locally](https://user-images.githubusercontent.com/5911897/211985346-d82d99a7-505d-4128-9d22-83eb055ab6c7.PNG)
 
-### `npm start`
+___
+## Image for reference (Console log API information)
+![pokemon-api-console-log-object-axios](https://user-images.githubusercontent.com/5911897/211985113-2efa8fd0-3149-443d-ac60-63e6aa5a1b42.PNG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+___
+## Image for reference (Accessibility Check no issues)
+![accessbility-check-no-issues-pokemon-api](https://user-images.githubusercontent.com/5911897/211985165-d8c4fbab-4225-4216-ba44-da1f6e7aefda.PNG)
